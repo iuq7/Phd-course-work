@@ -1,7 +1,8 @@
 import math
+import nltk
+nltk.download('stopwords')
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
 from nltk.corpus import stopwords
-from flask import url_for
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
