@@ -1,2 +1,3 @@
+gunicorn
 nltk==3.8.1
 Flask==2.3.2
