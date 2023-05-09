@@ -18,8 +18,7 @@ def search():
     return send_file(
         os.path.join(script_dir, 'indices', 'bm25_cosine_weights.txt'),
         mimetype='text/plain',
-        attachment_filename='results.txt',
-        as_attachment=False
+        as_attachment=True
     )
 
 if __name__ == '__main__':
