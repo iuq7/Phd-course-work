@@ -1,6 +1,7 @@
 import math
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
 from nltk.corpus import stopwords
 import os
